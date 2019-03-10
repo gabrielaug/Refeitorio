@@ -46,9 +46,19 @@ public class Cartao {
     }
     
     
+    
+
+    public String getSituacao() {
+        return situacao;
+    }
+
+    public void setSituacao(String situacao) {
+        this.situacao = situacao;
+    }
     private float codBarra;
     private int diasAcesso;
     private Date dtInicial;
     private Date dtFinal;
+    private String situacao;
     
 }

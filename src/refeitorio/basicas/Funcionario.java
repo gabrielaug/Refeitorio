@@ -67,6 +67,17 @@ public class Funcionario {
         this.cartao = cartao;
     }
     
+    
+
+    public String getSituacao() {
+        return situacao;
+    }
+
+    public void setSituacao(String situacao) {
+        this.situacao = situacao;
+    }
+    
+    
     private String matricula;
     private String nome;
     private String setor;
@@ -74,5 +85,5 @@ public class Funcionario {
     private float tel2;
     private String Escala;
     private Cartao cartao;
-    
+    private String situacao;
 }
